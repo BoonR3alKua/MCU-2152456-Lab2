@@ -230,7 +230,6 @@ int main(void)
   {
     /* USER CODE END WHILE */
 		  if(timer2_flag == 1) {
-			  HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
 			  setTimer2(100);
 		      if (second >= 60) {
 		          second = 0;
