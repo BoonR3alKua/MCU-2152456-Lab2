@@ -186,7 +186,6 @@ int main(void)
     /* USER CODE END WHILE */
 	if (timer1_flag == 1){
 		setTimer1(50);
-		HAL_GPIO_TogglePin(LED_RED_GPIO_Port, LED_RED_Pin);
 		if (en){
 			HAL_GPIO_TogglePin(EN0_GPIO_Port, EN0_Pin);
 			HAL_GPIO_TogglePin(EN1_GPIO_Port, EN1_Pin);

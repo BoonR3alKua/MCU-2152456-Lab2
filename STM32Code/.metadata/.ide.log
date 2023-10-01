@@ -510,3 +510,40 @@
 2023-10-01 17:01:41,718 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
 2023-10-01 17:01:41,719 [INFO] ApiDb:276 - Save user favorites file C:\Users\MY GEAR/.stm32cubeide/favorites.mcus.txt: 0 item(s)
 2023-10-01 17:01:41,719 [INFO] ApiDb:280 - User favorites MCUs=[]
+2023-10-01 17:03:22,190 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-01 17:03:23,718 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-10-01 17:03:32,348 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 814090376 Bytes (904921088)
+2023-10-01 17:03:33,567 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 828980456 Bytes (904921088)
+2023-10-01 17:03:35,110 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 822120512 Bytes (904921088)
+2023-10-01 17:03:35,245 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2023-10-01 17:03:35,245 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2023-10-01 17:03:35,245 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2023-10-01 17:03:35,245 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2023-10-01 17:03:35,245 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2023-10-01 17:03:35,245 [INFO] CodeGenerator:663 - code generatio: config db path: D:\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2023-10-01 17:03:35,383 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\MXTmpFiles\license.tmp_save
+2023-10-01 17:03:35,425 [INFO] CodeEngine:257 - Generated code: C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\MXTmpFiles\license.tmp
+2023-10-01 17:03:35,453 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\MXTmpFiles\gpio.tmp_save
+2023-10-01 17:03:35,489 [INFO] CodeEngine:257 - Generated code: C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\MXTmpFiles\gpio.tmp
+2023-10-01 17:03:35,549 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Src\stm32f1xx_it.c_save
+2023-10-01 17:03:35,605 [INFO] CodeEngine:257 - Generated code: C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Src\stm32f1xx_it.c
+2023-10-01 17:03:35,607 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Inc\stm32f1xx_it.h_save
+2023-10-01 17:03:35,641 [INFO] CodeEngine:257 - Generated code: C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Inc\stm32f1xx_it.h
+2023-10-01 17:03:35,648 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Src\stm32f1xx_hal_msp.c_save
+2023-10-01 17:03:35,701 [INFO] CodeEngine:257 - Generated code: C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Src\stm32f1xx_hal_msp.c
+2023-10-01 17:03:35,702 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\MXTmpFiles\system.tmp_save
+2023-10-01 17:03:35,732 [INFO] CodeEngine:257 - Generated code: C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\MXTmpFiles\system.tmp
+2023-10-01 17:03:35,737 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-10-01 17:03:35,785 [INFO] CodeEngine:257 - Generated code: C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Inc\stm32f1xx_hal_conf.h
+2023-10-01 17:03:35,794 [WARN] IPConfigManager:3148 - IP not found : TIM
+2023-10-01 17:03:35,794 [WARN] CodeGenerator:3268 - IP not found : null
+2023-10-01 17:03:35,799 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Inc\main.h_save
+2023-10-01 17:03:35,841 [INFO] CodeEngine:257 - Generated code: C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Inc\main.h
+2023-10-01 17:03:35,847 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Src\main.c_save
+2023-10-01 17:03:35,915 [INFO] CodeEngine:257 - Generated code: C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\Core\Src\main.c
+2023-10-01 17:03:36,234 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 27mS.
+2023-10-01 17:03:36,236 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2023-10-01 17:03:36,431 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2023-10-01 17:03:37,110 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 874mS.
+2023-10-01 17:03:37,110 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2023-10-01 17:03:37,111 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
