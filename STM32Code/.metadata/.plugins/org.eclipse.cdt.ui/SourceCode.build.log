@@ -1,23 +1,10 @@
-22:11:07 **** Incremental Build of configuration Debug for project SourceCode ****
+12:06:07 **** Build of configuration Debug for project SourceCode ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "SourceCode.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\MY GEAR\Desktop\MCULab2\STM32Code\Exc1\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SourceCode.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: SourceCode.elf
- 
 arm-none-eabi-size   SourceCode.elf 
-arm-none-eabi-objdump -h -S  SourceCode.elf  > "SourceCode.list"
    text	   data	    bss	    dec	    hex	filename
    7804	     20	   1652	   9476	   2504	SourceCode.elf
-arm-none-eabi-objcopy  -O ihex  SourceCode.elf  "SourceCode.hex"
-arm-none-eabi-objcopy  -O binary  SourceCode.elf  "SourceCode.bin"
 Finished building: default.size.stdout
  
-Finished building: SourceCode.hex
-Finished building: SourceCode.bin
-Finished building: SourceCode.list
- 
- 
- 
 
-22:11:08 Build Finished. 0 errors, 0 warnings. (took 475ms)
+12:06:07 Build Finished. 0 errors, 0 warnings. (took 363ms)
 
